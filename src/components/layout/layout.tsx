@@ -2,7 +2,8 @@ import React from "react";
 import { Inter, PT_Sans_Caption } from "next/font/google";
 
 import { Footer } from "./footer";
-import Header from "./header";
+import Header from "./header/header";
+
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -10,7 +11,7 @@ type LayoutProps = {
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["400", "500", "700"],
   variable: "---font-inter",
 });
 
